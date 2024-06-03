@@ -23,7 +23,7 @@ fully qualified name of the implementing class must be present in the
 
 For example, if the extension Java code is packaged in a JAR file named
 _ExampleExtension.jar_ and the class implementing FREExtension is
-_com.example.ExampleExtension_ , then you would use the following extension
+_com.example.ExampleExtension_, then you would use the following extension
 descriptor entry:
 
     <platform name="Android-ARM">

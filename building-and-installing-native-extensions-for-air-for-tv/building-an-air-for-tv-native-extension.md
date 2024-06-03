@@ -267,7 +267,7 @@ TV, the necessary libraries are:
 Details on using the AIR for TV make utility are in:
 
 - _[Getting Started with Adobe AIR for TV (PDF)](https://web.archive.org/web/20220705161131/http://download.macromedia.com/pub/developer/devices/GettingStartedWithAdobeAIRForTV.pdf)_
-  in the chapter _Installing and building the source distribution_ .
+  in the chapter _Installing and building the source distribution_.
 
 - _[Optimizing and Integrating Adobe AIR for TV (PDF)](https://web.archive.org/web/20220705165037/http://download.macromedia.com/pub/developer/devices/OptimizingAndIntegratingAdobeAIRForTV.pdf)_
   in the chapter _Coding, building, and testing._ Follow the instructions in the

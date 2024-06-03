@@ -27,7 +27,7 @@ runtime:
 - A pointer to the data that the runtime later passes to each new extension
   context. For example, if all extension contexts use the same utility library,
   this data can include a pointer to the library. This data is called the
-  _extension data_ .
+  _extension data_.
 
   The extension data can be any data you choose. It can be a simple primitive
   data type, or a pointer to a structure you define. In this example, the

@@ -109,7 +109,7 @@ When using the _packagedDependencies_ feature for packaging the ANE for iOS, add
 
     <option>-rpath @executable_path/Frameworks</option>
 
-inside the `linkerOptions` tag, in _platformoptions.xml_ .
+inside the `linkerOptions` tag, in _platformoptions.xml_.
 
 #### iOS linker options
 

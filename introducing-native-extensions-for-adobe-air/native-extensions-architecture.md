@@ -179,7 +179,7 @@ device-bundling:
 
 A native extension is loaded once each time an application runs. However, to use
 the native implementation, the ActionScript part of your extension calls a
-special ActionScript API to create an _extension context_ .
+special ActionScript API to create an _extension context_.
 
 A native extension can do either of the following.
 
