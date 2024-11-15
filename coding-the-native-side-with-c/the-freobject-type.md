@@ -34,10 +34,10 @@ object. The types are the following:
 
 - An ActionScript BitmapData class object
 
-> Note: You can call the extensions C APIs only from the same thread as the one
-> in which the FREFunction function is running. The one exception is the C API
-> for dispatching an event to the ActionScript side. You can call that function,
-> `FREDispatchStatusEventAsync()`, from any thread.
+> **Note:** You can call the extensions C APIs only from the same thread as the
+> one in which the FREFunction function is running. The one exception is the C
+> API for dispatching an event to the ActionScript side. You can call that
+> function, `FREDispatchStatusEventAsync()`, from any thread.
 
 ## Determining the type of an FREObject variable
 
@@ -68,7 +68,7 @@ The following illustration illustrates this behavior:
 
 FREObject validity on the call stack
 
-> Note: An FREFunction function can indirectly call another FREFunction
+> **Note:** An FREFunction function can indirectly call another FREFunction
 > function. For example, `FREFunctionA()` can call a method of an ActionScript
 > object. That method then can call `FREFunctionB()`.
 
@@ -100,7 +100,7 @@ Therefore, when using an FREObject variable, consider the following:
 
 - You cannot share FREObject variables between extensions.
 
-  > Note: You can share FREObject variables between extension contexts of the
-  > same extension. However, as in any case, the FREObject variable becomes
+  > **Note:** You can share FREObject variables between extension contexts of
+  > the same extension. However, as in any case, the FREObject variable becomes
   > invalid when the first FREFunction function on the call stack returns to the
   > runtime.

@@ -180,10 +180,10 @@ for each resource file in an extension. For example, prefix the name with the
 extension ID, creating a resource name such as
 `com.sample.ext.MyExtension.myImage1.png`.
 
-> Note: The resources are in the top-level application directory -- not in the
-> extension directory. Therefore, to access the resources, use the ActionScript
-> property `File.applicationDirectory`. Do not use the ActionScript API
-> `ExtensionContext.getExtensionDirectory()` to navigate to the extension
+> **Note:** The resources are in the top-level application directory -- not in
+> the extension directory. Therefore, to access the resources, use the
+> ActionScript property `File.applicationDirectory`. Do not use the ActionScript
+> API `ExtensionContext.getExtensionDirectory()` to navigate to the extension
 > directory to find the resources. They are not there.
 
 #### Localized resources

@@ -33,5 +33,5 @@ and sets the FREObject variable to correspond to it. Use the C API function
 The `value` parameter strings must use UTF- 8 encoding and include the null
 terminator.
 
-> Note: All string parameters to any C API function use UTF-8 encoding and
+> **Note:** All string parameters to any C API function use UTF-8 encoding and
 > include the null terminator.

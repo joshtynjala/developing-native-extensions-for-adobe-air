@@ -24,7 +24,7 @@ extension classes can call `createExtensionContext()` in any method, typically a
 constructor or other initialization method calls it. Save the returned
 ExtensionContext instance in a data member of the class.
 
-> Note: Calling `createExtensionContext()` as part of a static data member's
+> **Note:** Calling `createExtensionContext()` as part of a static data member's
 > definition is not recommended. Doing so means that the runtime creates the
 > extension context earlier than the application needs it. If the application's
 > execution path does not eventually use the extension, creating the context
@@ -75,6 +75,6 @@ different, the native side typically performs different initializations.
 Depending on the context type, the native side can create an instance of a
 different native class and can provide a different set of native functions.
 
-> Note: A simple extension often has only one context type. That is, it has only
-> one set of methods in the native implementation. In this simple case, the
+> **Note:** A simple extension often has only one context type. That is, it has
+> only one set of methods in the native implementation. In this simple case, the
 > context type String parameter can be `Null`.

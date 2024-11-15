@@ -61,9 +61,9 @@ The EDK includes the following:
   see [Creating the .mk file](#creating-the-mk-file) and
   [Running the make utility](#running-the-make-utility).
 
-> Note: The AIR for TV EDK requires that the `FREInitializer()` method is named
-> `Initializer()` and that the `FREFinalizer()` method is named `Finalizer()`.
-> For more information about these methods, see
+> **Note:** The AIR for TV EDK requires that the `FREInitializer()` method is
+> named `Initializer()` and that the `FREFinalizer()` method is named
+> `Finalizer()`. For more information about these methods, see
 > [Extension initialization](../coding-the-native-side-with-c/extension-initialization.md)
 > and
 > [Extension finalization](../coding-the-native-side-with-c/extension-finalization.md).
@@ -98,7 +98,7 @@ in the `<yourPlatform>/edk` directory or its subdirectories. For example:
     <AIR for TV installation directory>/products/stagecraft/thirdparty-private/CompanyA/stagecraft-platforms/PlatformB/edk/myExtension/as/stub
     <AIR for TV installation directory>/products/stagecraft/thirdparty-private/CompanyA/stagecraft-platforms/PlatformB/edk/myExtension/as/simulator
 
-> Note: The sample extensions that AIR for TV provides are in the directory
+> **Note:** The sample extensions that AIR for TV provides are in the directory
 > `<AIR for TV installation directory>/products/stagecraft/source/edk`. Do not
 > put your extension files in this directory.
 
@@ -161,7 +161,7 @@ Make the following required modifications:
   `SC_ADDITIONAL_MODULE_OBJ_SUBDIRS` to specify the native implementation files
   that AIR for TV provides.
 
-  > Note: Do not remove ExtensionBridge.cpp from this list. Remove the
+  > **Note:** Do not remove ExtensionBridge.cpp from this list. Remove the
   > HelloWorld or Process extension implementation files. Typically, you do not
   > add your extension's source files to this list.
 
@@ -185,8 +185,8 @@ Make the following required modifications:
 
       SC_EDK_AS_SOURCE_DIR := $(SC_PLATFORM_MAKEFILE_DIR)/edk/myExtension/as/real
 
-  > Note: This directory is the base directory for your ActionScript package.
-  > For example, consider an ActionScript package named
+  > **Note:** This directory is the base directory for your ActionScript
+  > package. For example, consider an ActionScript package named
   > `tv.adobe.extension.example`. The directories `tv`, `adobe`, `extension`,
   > and `example` are successive subdirectories of `SC_EDK_AS_SOURCE_DIR`.
 
@@ -203,8 +203,8 @@ Make the following required modifications:
 
       SC_EDK_AS_SOURCE_DIR_AUTHORING := $(SC_PLATFORM_MAKEFILE_DIR)/edk/myExtension/as/stub
 
-  > Note: This directory is the base directory for your ActionScript package.
-  > For example, consider an ActionScript package named
+  > **Note:** This directory is the base directory for your ActionScript
+  > package. For example, consider an ActionScript package named
   > `tv.adobe.extension.example`. The directories `tv`, `adobe`, `extension`,
   > and `example` are successive subdirectories of
   > `SC_EDK_AS_SOURCE_DIR_AUTHORING`.

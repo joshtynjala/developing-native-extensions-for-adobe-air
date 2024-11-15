@@ -27,8 +27,8 @@ proceed. The extension can do the following:
 - If the AIR application was built with an older version of the extension,
   revert to the older version's behavior.
 
-  > Note: Typically an AIR application that was built with a newer version of an
-  > extension is not available on the device. For more information, see
+  > **Note:** Typically an AIR application that was built with a newer version
+  > of an extension is not available on the device. For more information, see
   > [Backward compatibility and the device's application store](#backward-compatibility-and-the-devices-application-store).
 
 To look up the extension version number that the application was built with, do

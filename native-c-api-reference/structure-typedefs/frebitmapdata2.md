@@ -57,10 +57,10 @@ bits32
 A pointer to a uint32_t. This value is an array of uint32_t values. Each value
 is one pixel of the bitmap.
 
-> Note: The only field of a `FREBitmapData` 2 structure that you can change in
-> the native implementation is the `bits32` field. The `bits32` field contains
-> the actual bitmap values. Treat all the other fields in the `FREBitmapData2`
-> structure as read-only fields.
+> **Note:** The only field of a `FREBitmapData` 2 structure that you can change
+> in the native implementation is the `bits32` field. The `bits32` field
+> contains the actual bitmap values. Treat all the other fields in the
+> `FREBitmapData2` structure as read-only fields.
 
 More Help topics
 

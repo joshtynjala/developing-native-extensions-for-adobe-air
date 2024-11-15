@@ -378,10 +378,10 @@ Instructions are in
 _[Getting Started with Adobe AIR for TV (PDF)](https://web.archive.org/web/20220705161131/http://download.macromedia.com/pub/developer/devices/GettingStartedWithAdobeAIRForTV.pdf)_
 in _Quick Start on Linux_.
 
-> Note: Make sure that you installed the AIR 3 SDK, the The Open Source Flex®
-> SDK, and the Java™ runtime, and included the bin directories in your PATH
-> environment variable. Building native extensions for AIR for TV depends on
-> these libraries.
+> **Note:** Make sure that you installed the AIR 3 SDK, the The Open Source
+> Flex® SDK, and the Java™ runtime, and included the bin directories in your
+> PATH environment variable. Building native extensions for AIR for TV depends
+> on these libraries.
 
 Next, add building the Hello World or Process extension example to your
 x86Desktop build. Do the following:

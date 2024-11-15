@@ -425,8 +425,8 @@ Use the following values for the `name` attribute:
 
 - `appleTV-x86` for the tvOS Simulator.
 
-> Note: Device-bundled extensions use a `name` attribute value defined by the
-> device manufacturer.
+> **Note:** Device-bundled extensions use a `name` attribute value defined by
+> the device manufacturer.
 
 The child elements specify how the native code library is deployed. Application
 deployment means that the code library is deployed with each AIR application

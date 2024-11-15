@@ -47,8 +47,8 @@ extension method can start another thread to perform some task. When the task in
 the other thread completes, that thread calls `FREDispatchStatusEventAsync()` to
 inform the ActionScript ExtensionContext instance.
 
-> Note: The `FREDispatchStatusEventAsync()` function is the only C API that you
-> can call from any thread of your native implementation.
+> **Note:** The `FREDispatchStatusEventAsync()` function is the only C API that
+> you can call from any thread of your native implementation.
 
 Unless one of its arguments is invalid, `FREDispatchStatusEventAsync()` return
 `FRE_OK`. However, returning `FRE_OK` does not mean that the event was

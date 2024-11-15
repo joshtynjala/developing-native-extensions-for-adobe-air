@@ -22,8 +22,8 @@ manipulate the channel setting on a hypothetical TV.
         }
     }
 
-> Note: When designing your public interfaces, consider whether you will release
-> subsequent versions of your extension. If so, consider backward compatibility
-> support in your initial design. For more information about backward
-> compatibility issues for device-bundled extensions, see
+> **Note:** When designing your public interfaces, consider whether you will
+> release subsequent versions of your extension. If so, consider backward
+> compatibility support in your initial design. For more information about
+> backward compatibility issues for device-bundled extensions, see
 > [Native extension backward compatibility](../coding-the-actionscript-side/native-extension-backward-compatibility.md).

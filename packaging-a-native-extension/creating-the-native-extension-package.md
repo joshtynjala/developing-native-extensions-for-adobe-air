@@ -293,6 +293,6 @@ package, the APK package includes the following libraries:
 - The libraries in `libs/armeabi` if the ADT target is `apk-emulator`,
   `apk-debug`, or `apk-profile`.
 
-> Note: For the iPhone-ARM platform, you cannot include shared libraries in your
-> ANE file. For more information, see
+> **Note:** For the iPhone-ARM platform, you cannot include shared libraries in
+> your ANE file. For more information, see
 > [Building the native library](./building-the-native-library.md).

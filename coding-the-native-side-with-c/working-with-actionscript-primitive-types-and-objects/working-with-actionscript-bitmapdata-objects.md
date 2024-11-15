@@ -81,7 +81,8 @@ After you have manipulated the bitmap, use the C API function
 
     FREResult FREReleaseBitmapData(FREObject object);
 
-> Note: Do not call any C API function except `FREInvalidateBitmapDataRect()`
-> between the calls to `FREAcquireBitmapData()` and `FREReleaseBitmapData()`.
-> This prohibition is because other calls could, as a side effect, execute code
-> that invalidates the pointer to the bitmap contents.
+> **Note:** Do not call any C API function except
+> `FREInvalidateBitmapDataRect()` between the calls to `FREAcquireBitmapData()`
+> and `FREReleaseBitmapData()`. This prohibition is because other calls could,
+> as a side effect, execute code that invalidates the pointer to the bitmap
+> contents.

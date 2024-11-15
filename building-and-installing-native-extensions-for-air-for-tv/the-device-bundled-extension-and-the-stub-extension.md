@@ -49,8 +49,8 @@ extension ANE file. They can use this ANE file to test the application on a
 desktop computer more thoroughly than testing with the stub extension. They can
 also include the simulator extension in the AIR application package.
 
-> Note: You can create a simulator extension in place of, or in addition to, the
-> stub extension.
+> **Note:** You can create a simulator extension in place of, or in addition to,
+> the stub extension.
 
 ## Use of the device-bundled, stub, and simulator extensions
 
@@ -65,7 +65,7 @@ extensions:
 - Packages the stub extension or simulator extension into their distributable
   AIR application.
 
-  > Note: If you provide both a stub and simulator extension to the AIR
+  > **Note:** If you provide both a stub and simulator extension to the AIR
   > application developers, instruct them about which one to package with their
   > distributable application.
 

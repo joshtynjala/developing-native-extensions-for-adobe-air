@@ -42,7 +42,7 @@ the one that the runtime calls due to the ActionScript side calling the
 ExtensionContext instance's `call()` method. FREObjects are also only valid in
 the thread used by the runtime to call the first FREFunction.
 
-> Note: An FREFunction function can indirectly call another FREFunction
+> **Note:** An FREFunction function can indirectly call another FREFunction
 > function. For example, `FREFunctionA()` can call a method of an ActionScript
 > object. That method then can call `FREFunctionB()`.
 
@@ -71,7 +71,7 @@ Therefore, when using an FREObject, consider the following:
 
 - You cannot share FREObjects between extensions.
 
-  > Note: You can share FREObjects between extension contexts of the same
+  > **Note:** You can share FREObjects between extension contexts of the same
   > extension. However, in this, as in any case, the FREObject still becomes
   > invalid when the first FREFunction function on the call stack returns to the
   > runtime.

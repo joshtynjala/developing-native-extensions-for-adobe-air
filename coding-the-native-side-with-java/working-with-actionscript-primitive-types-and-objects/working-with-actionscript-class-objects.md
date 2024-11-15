@@ -18,8 +18,8 @@ method:
 
     FREObject newObject ( String className, FREObject constructorArgs[] )
 
-> Note: These general ActionScript object manipulation functions apply to all
-> ActionScript class objects. However, the ActionScript classes Array, Vector,
-> ByteArray, and BitmapData are special cases because they each involve large
-> amounts of data. Therefore, the Java API provides additional specific classes
-> for manipulating objects of these special cases.
+> **Note:** These general ActionScript object manipulation functions apply to
+> all ActionScript class objects. However, the ActionScript classes Array,
+> Vector, ByteArray, and BitmapData are special cases because they each involve
+> large amounts of data. Therefore, the Java API provides additional specific
+> classes for manipulating objects of these special cases.

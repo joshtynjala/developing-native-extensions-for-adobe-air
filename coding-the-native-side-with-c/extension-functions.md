@@ -35,7 +35,7 @@ A native function also has a return value with the type FREObject. The runtime
 returns the corresponding ActionScript object as the return value for the
 ExtensionContext `call()` method.
 
-> Note: Do not set a native function's visibility to hidden. Use the default
+> **Note:** Do not set a native function's visibility to hidden. Use the default
 > visibility.
 
 The following sequence diagram shows an AIR application making a function call
@@ -48,7 +48,7 @@ example, the C function:
 
 - Starts an asynchronous thread which later dispatches an event.
 
-> Note: The behavior of the C function `FREFunctionF()` is only a sample
+> **Note:** The behavior of the C function `FREFunctionF()` is only a sample
 > behavior to illustrate a call sequence.
 
 ![](../img/NativeFunction_popup.png)

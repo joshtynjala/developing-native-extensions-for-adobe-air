@@ -9,7 +9,7 @@ the device. Unzip this file onto the device into the following location:
 
     /opt/adobe/stagecraft/extensions
 
-> Note: The /opt/adobe/stagecraft/extensions directory can also be a Linux
+> **Note:** The /opt/adobe/stagecraft/extensions directory can also be a Linux
 > symbolic soft link to another directory on the device filesystem. For more
 > information, see the chapter `Filesystem usage` in
 > _[Optimizing and Integrating Adobe AIR for TV (PDF)](https://web.archive.org/web/20220705165037/http://download.macromedia.com/pub/developer/devices/OptimizingAndIntegratingAdobeAIRForTV.pdf)_.

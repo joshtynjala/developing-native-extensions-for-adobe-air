@@ -82,8 +82,8 @@ AIR links to the following iOS framework libraries by default:
 When linking to other frameworks and libraries, specify the linkage options in a
 platform options XML file.
 
-> Note: In AIR 3.4 and later, you can use the `ADT ‑hideAneSymbols yes` option
-> to eliminate potential symbol conflicts. For more information, see
+> **Note:** In AIR 3.4 and later, you can use the `ADT ‑hideAneSymbols yes`
+> option to eliminate potential symbol conflicts. For more information, see
 > [Native extension options](https://web.archive.org/web/20220814032009/https://help.adobe.com/en_US/air/build/WS901d38e593cd1bac1e63e3d128fc240122-7ff0.html).
 
 ### iOS platform options (platform.xml) file
@@ -97,7 +97,7 @@ developer creates an application IPA file that uses your extension, ADT uses the
 options in the platform.xml file to link to the additional libraries and include
 the bundled dependencies.
 
-> Note: The platform options file can have any name. You are not required to
+> **Note:** The platform options file can have any name. You are not required to
 > name it "platform.xml."
 
 You can use an iOS platform options file with both the iPhone-ARM (device) and

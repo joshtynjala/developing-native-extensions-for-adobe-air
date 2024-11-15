@@ -12,9 +12,9 @@ application developers that:
 
 - you are the signer (publisher) of the native extension.
 
-> Note: When an AIR application is packaged, the AIR application's certificate,
-> not the native extension's certificate if it is provided, is what the
-> application's users see.
+> **Note:** When an AIR application is packaged, the AIR application's
+> certificate, not the native extension's certificate if it is provided, is what
+> the application's users see.
 
 Obtain a certificate from a certification authority. Creating a digitally signed
 certificate for your native extension is the same as creating a certificate for

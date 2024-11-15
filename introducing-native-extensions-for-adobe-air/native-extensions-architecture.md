@@ -142,7 +142,7 @@ ActionScript-only implementation to use on all platforms not specified with a
 `<platform>` element. For more information, see
 [Native extension descriptor files](../native-extension-descriptor-files.md).
 
-> Note: The implementation for at least one targeted platform must contain
+> **Note:** The implementation for at least one targeted platform must contain
 > native code. If no targeted platforms require native code, then using native
 > extensions is not the correct choice. In such cases, create a SWC library.
 

@@ -34,8 +34,9 @@ Use one of the following ways to build the SWC file:
 
       -swf-version 17
 
-  > Note: You can use `swfdump` in the Flex SDK bin directory to check the SWF
-  > file format version of any SWF file: `swfdump myFlexLibraryProjectSWF.swf`
+  > **Note:** You can use `swfdump` in the Flex SDK bin directory to check the
+  > SWF file format version of any SWF file:
+  > `swfdump myFlexLibraryProjectSWF.swf`
 
 - Use the command-line tool acompc to build a Flex library project for AIR. This
   tool is the component compiler provided with the Flex SDK. If you are not
@@ -49,8 +50,8 @@ Use one of the following ways to build the SWC file:
                                   -swf-version=13
                                   -output $HOME/myExtension/output/sample.extension.myExtension.swc
 
-  > Note: If your ActionScript library uses any external resources, package them
-  > into the ANE file using ADT. See
+  > **Note:** If your ActionScript library uses any external resources, package
+  > them into the ANE file using ADT. See
   > [Creating the native extension package](./creating-the-native-extension-package.md).
 
 #### SWF version compatibility
@@ -72,7 +73,7 @@ extension cannot exceed the SWF version of the main application SWF file:
 | 3.6+                               | 19              | ns.adobe.com/air/extension/3.6 |
 | 3.7+                               | 20              | ns.adobe.com/air/extension/3.7 |
 
-> Note: The platform options (platform.xml) file requires the
+> **Note:** The platform options (platform.xml) file requires the
 > `ns.adobe.com/air/extension/3.1` namespace or later. If you are using the
 > `‑platformoptions` flag to package your ANE, you must specify
 > `ns.adobe.com/air/extension/3.1` or later and a SWC version greater than or

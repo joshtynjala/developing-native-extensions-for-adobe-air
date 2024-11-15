@@ -56,8 +56,8 @@ API function:
         FREObject*     thrownException
     );
 
-> Note: These general ActionScript object manipulation functions apply to all
-> ActionScript class objects. However, the ActionScript classes Array, Vector,
-> ByteArray, and BitmapData are special cases because they each involve large
-> amounts of data. Therefore, the C API provides additional specific functions
-> for manipulating objects of these special cases.
+> **Note:** These general ActionScript object manipulation functions apply to
+> all ActionScript class objects. However, the ActionScript classes Array,
+> Vector, ByteArray, and BitmapData are special cases because they each involve
+> large amounts of data. Therefore, the C API provides additional specific
+> functions for manipulating objects of these special cases.

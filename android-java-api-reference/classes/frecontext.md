@@ -37,7 +37,7 @@ that is closely bound to a set of native objects with limited lifespan. You
 could then create a separate context instance for each set of these objects and
 dispose the context instance along with the associated native objects.
 
-> Note: If you have called the acquire() method of any FREByteArray or
+> **Note:** If you have called the acquire() method of any FREByteArray or
 > FREBitmapData object, then you cannot call the methods defined by the
 > FREObject class of any object.
 
@@ -170,8 +170,8 @@ extension method can start another thread to perform some task. When the task in
 the other thread completes, that thread calls `dispatchStatusEventAsync()` to
 inform the ActionScript ExtensionContext instance.
 
-> Note: The `dispatchStatusEventAsync()` function is the only Java API that you
-> can call from any thread of your native implementation.
+> **Note:** The `dispatchStatusEventAsync()` function is the only Java API that
+> you can call from any thread of your native implementation.
 
 The runtime does not dispatch the event in the following cases:
 

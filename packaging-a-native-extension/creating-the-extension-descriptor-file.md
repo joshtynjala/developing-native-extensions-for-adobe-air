@@ -99,7 +99,7 @@ namespace must be greater than or equal to the extension descriptor namespace.
 | ns.adobe.com/air/extension/3.6 | AIR 3.6+               | 19              |
 | ns.adobe.com/air/extension/3.7 | AIR 3.7+               | 20              |
 
-> Note: The platform options (platform.xml) file requires the
+> **Note:** The platform options (platform.xml) file requires the
 > `ns.adobe.com/air/extension/3.1` namespace or later. If you are using the
 > `‑platformoptions` flag to package your ANE, you must specify
 > `ns.adobe.com/air/extension/3.1` or later and a SWC version greater than or

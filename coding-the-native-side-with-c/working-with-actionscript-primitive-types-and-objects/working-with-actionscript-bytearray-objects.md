@@ -34,7 +34,7 @@ After you have manipulated the bytes, use the C API
 
     FREResult FREReleaseByteArray( FREObject object );
 
-> Note: Do not call any C API functions between the calls to
+> **Note:** Do not call any C API functions between the calls to
 > `FREAcquireByteArray()` and `FREReleaseByteArray()`. This prohibition is
 > because other calls could, as a side effect, execute code that invalidates the
 > pointer to the byte array contents.
